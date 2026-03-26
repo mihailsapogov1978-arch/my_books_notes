@@ -1,4 +1,4 @@
 ```dataview
-    LIST FROM "Философия/Авторы/Эпиктет"
+    LIST FROM "Философия/Средневековье/Монтень_Мишель"
     WHERE file.name != this.file.name AND file.ext = "md"
     SORT file.name
